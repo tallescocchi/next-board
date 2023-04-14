@@ -1,0 +1,162 @@
+.BoardContainer {
+  max-width: 850px;
+  margin: 4rem auto 0;
+
+  background-color: #202024;
+
+  border-radius: 7px;
+  padding: 2.5rem 1rem 0.3rem;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1.4rem 0;
+    color: #FFB800;
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      background-color: transparent;
+      transition: 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+
+    input {
+      width: 90%;
+      height: 42px;
+      border-radius: 7px;
+
+      background-color: #323238;
+      color: #e1e1e6;
+      border: 1px solid #505059;
+      padding-left: 5px;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 0.5rem;
+      border: 0;
+      border-radius: 50%;
+      background-color: #FFB800;
+      color: #505059;
+      transition: 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.BoardTasks {
+  width: 95%;
+  margin: 2rem 1.2rem;
+}
+
+.TaskList {
+  padding: 1.2rem;
+  margin-top: 1rem;
+  
+  border-radius: 7px;
+  background-color: #29292e;
+
+  a {
+    P {
+      margin-bottom: 2rem;
+    }
+  } 
+}
+
+.ActionsDateDelete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #FFB800;
+
+  > p {
+    line-height: 1.6;
+  }
+}
+
+.EditAndDeleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Edit {
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0;
+  color: #FFB800;
+  
+  &:hover {
+    color: #e4a300;
+  }
+}
+
+.Delete {
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0;
+  color: #AB222E;
+  
+  &:hover {
+    color: #7A1921;
+  }
+}
+
+.CongratulationSession {
+  max-width: 850px;
+  margin: 2rem auto;
+  border-radius: 7px;
+  padding: 1rem;
+
+  background-color: #202024;
+
+  h3 {
+    margin-bottom: 1rem;
+    color: #FFB800;
+    font-size: 1.6rem;
+  }
+
+  time {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.6;
+  }
+
+}

@@ -1,0 +1,35 @@
+.TaskContainer {
+  max-width: 850px;
+
+  margin: 4rem auto 0;
+
+  background-color: #202024;
+
+  border-radius: 7px;
+
+  padding: 1rem;
+
+.TaskAction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-bottom: 1px solid #505059;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font: 0.9rem;
+
+    div {
+      display: flex;
+      gap: 0.5rem;
+      line-height: 150%;
+    }
+
+    time {
+      display: flex;
+      gap: 0.5rem;
+      line-height: 150%;
+    }
+}
+}

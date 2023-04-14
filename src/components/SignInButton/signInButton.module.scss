@@ -1,0 +1,33 @@
+.signInButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  
+  .avatarImg {
+    border-radius: 50%;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.signInButton {
+  background-color: transparent;
+  color: #e1e1e6;
+  font-weight: bold;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  transition: 0.2s;
+
+  &:hover { 
+    color: #FFB800;
+  }
+}

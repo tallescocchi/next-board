@@ -1,0 +1,34 @@
+.DonateContainer {
+  max-width: 850px;
+  margin: 4rem auto;
+
+  background-color: #202024;
+
+  border-radius: 7px;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  span {
+    color: #05BA63;
+  }
+
+  .Vip {
+    background-color: #05BA63;
+    padding: 0.5rem;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+

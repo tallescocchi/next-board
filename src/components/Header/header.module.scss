@@ -1,0 +1,38 @@
+.headerContainer {
+  height: 4rem;
+  background-color: #202024;
+  color: #e1e1e6;
+}
+
+.headerContent {
+  max-width: 1120px;
+  height: 4rem;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+    align-items: center;
+    line-height: 150%;
+    gap: 2rem;
+
+    a {
+      display: flex;
+      gap: 0.5rem;
+      font-weight: bold;
+
+      &:hover {
+      color: #FFB800;
+      }
+    }
+  }
+  
+  .logoImg {
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+}
